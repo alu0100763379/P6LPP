@@ -39,35 +39,35 @@ describe Referencia do
     end
     
     it "Existe un método para obtener el listado de autores" do
-      @referencia.respond_to?(:autor).should be true
+      @referencia.respond_to?(:autor).should be true  #Con la nueva version deberia ser expect to
     end
     
     it "Existe un método para obtener el título" do
-      @referencia.respond_to?(:titulo).should be true
+      @referencia.respond_to?(:titulo).should be true #Con la nueva version deberia ser expect to
     end
     
     it "Existe un método para obtener la serie" do
-      @referencia.respond_to?(:serie).should be true
+      @referencia.respond_to?(:serie).should be true #Con la nueva version deberia ser expect to
     end
     
     it "Existe un método para obtener la editorial" do
-      @referencia.respond_to?(:editorial).should be true
+      @referencia.respond_to?(:editorial).should be true #Con la nueva version deberia ser expect to
     end
     
     it "Existe un método para obtener la edición" do
-      @referencia.respond_to?(:edicion).should be true
+      @referencia.respond_to?(:edicion).should be true #Con la nueva version deberia ser expect to
     end
     
     it "Existe un método para obtener la fecha" do
-      @referencia.respond_to?(:fecha).should be true
+      @referencia.respond_to?(:fecha).should be true #Con la nueva version deberia ser expect to
     end
     
     it "Existe un método para obtener la isbn" do
-      @referencia.respond_to?(:isbn).should be true
+      @referencia.respond_to?(:isbn).should be true #Con la nueva version deberia ser expect to
     end
     
     it "Existe un método para obtener la referencia formateada" do
-      @referencia.respond_to?(:to_s).should be true
+      @referencia.respond_to?(:to_s).should be true #Con la nueva version deberia ser expect to
     end
   end
 
